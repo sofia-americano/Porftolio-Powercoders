@@ -131,14 +131,14 @@ button:not(:disabled) {
     margin-bottom: 0;
 }
 
-#image-container {
+.image-container {
     background-color: var(--secondary-color);
     padding: 10px;
     border-radius: 4px;
     margin-bottom: 3rem;
 }
 
-#image-container img {
+.image-container img {
     height: auto;
 }
 
@@ -148,7 +148,7 @@ image-description {
     flex: 1;
 }
 
-.image-description p {
+image-description p {
     font-size: 16px;
     line-height: 1.4;
 }

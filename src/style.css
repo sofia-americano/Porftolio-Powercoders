@@ -22,7 +22,7 @@ h3 {
 
 h1 {
     font-size: 48px !important;
-    margin-top: 7rem!important;
+    margin-top: 7rem !important;
 }
 
 h2 {
@@ -46,7 +46,6 @@ p {
     display: flex;
     margin-top: 40px;
     justify-content: center;
-    margin-bottom: 7rem;
 }
 
 ::after, ::before {
@@ -55,7 +54,7 @@ p {
 
 .navigation-links a {
     margin: 20px;
-    margin-bottom: 20rem;
+    margin-bottom: 40px;
 }
 
 .primary-link {
@@ -80,6 +79,12 @@ p {
 
 button:not(:disabled) {
     cursor: pointer;
+}
+
+.text-center {
+    font-size: 18px;
+    font-family: var(--bs-font-sans-serif);
+    margin-bottom: 40px;
 }
 
 .navbar-light .navbar-toggler-icon {
